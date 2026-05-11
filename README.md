@@ -47,7 +47,7 @@ Take photos of your album pages → an AI vision model reads them → your inven
 - ✅ 48 country pages processed, 0 rejected by validation
 - ✅ All special pages (FWC + Coca-Cola) processed
 - ⚠️ ~5 false positives on **crest detection** (slot 1): the AI sometimes calls a crest "filled" when the holographic foil reflects light off an empty slot
-- ⚠️ Occasional misread on whole pages with poor lighting
+- ⚠️ 1 misread on a page
 
 **Use [Manual corrections](#-manual-corrections) (cell 1️⃣1️⃣) to fix individual mistakes:**
 
