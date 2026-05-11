@@ -74,23 +74,6 @@ The `ProcessingLog` sheet records which model was used per photo, so you can exp
 
 ---
 
-## 🔧 Manual corrections
-
-If the AI got something wrong, the last cell of the notebook gives you these helpers:
-
-```python
-mark_owned('ARG 1', False)                       # accepts any reasonable code format
-mark_owned('arg-01', True)                        # → normalized to ARG1
-set_duplicates('FWC 09', 3)                       # → normalized to FWC9
-set_player('ARG 20', 'Lionel Messi')
-inspect_log('IMG_0733.HEIC', phase='album')       # see what the AI actually said
-list_backups()                                     # see available rollbacks
-restore_backup('album_inventory_20260511_193024_album.xlsx')
-self_check()                                       # audit inventory integrity
-```
-
----
-
 ## 📂 What gets created in your Drive
 
 ```
