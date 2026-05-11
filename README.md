@@ -2,7 +2,7 @@
 
 > AI-powered inventory tracker for your Panini sticker album. Built for Google Colab.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Permanganato86/panini-wc26/blob/main/AlbumPanini2026_Manager.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Permanganato86/Panini_FIFA_World_Cup_2026_Album_Manager/blob/main/AlbumPanini2026_Manager.ipynb)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Take photos of your album pages → an AI vision model reads them → your inventory is updated automatically in a Google Sheets-compatible Excel file. Generates trade lists, tracks duplicates, and audits its own work.
