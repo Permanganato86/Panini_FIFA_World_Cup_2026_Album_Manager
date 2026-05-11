@@ -1,0 +1,72 @@
+# ════════════════════════════════════════════════════════════════
+# NEVER COMMIT THESE
+# ════════════════════════════════════════════════════════════════
+
+# Personal album data
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+
+# Photos of stickers
+*.HEIC
+*.heic
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.webp
+*.heif
+*.HEIF
+
+# But DO keep example images (override the above)
+!examples/*.jpg
+!examples/*.jpeg
+!examples/*.png
+
+# Backups and logs from real runs
+backups/
+logs/
+processed_album/
+processed_special_pages/
+processed_duplicates/
+
+# Any API keys accidentally saved
+.env
+.env.*
+secrets.json
+*.key
+*api_key*
+*credentials*
+
+# ════════════════════════════════════════════════════════════════
+# Python / Jupyter housekeeping
+# ════════════════════════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+.jupyter/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
